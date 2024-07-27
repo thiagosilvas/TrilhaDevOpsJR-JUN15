@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+#home,
+.card-post,
+#featured,
+footer {
+    max-width: 1152px;
+    margin: auto;
+
+}
+
+
+header {
+    width: 100%;
+}
+
+.box {
+
+    width: 239px;
+    margin-left: 70%;
+
+}
+
+.box li a {
+    color: black;
+    text-decoration: none;
+}
+
+.box ul li a:hover{
+    color:#FF6464;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+
+
+
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 148px;
+    margin-right: 148px;
+
+}
+
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: -31px;
+}
+
+.description-main p {
+    margin-left: 3px;
+}
+
+.photo {
+    margin-right: 10px;
+    margin-top: 210px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 0px 5px #EDF7FA;
+}
+
+.featured-info {
+    display: flex;
+    height: 34px;
+
+}
+
+.featured-info .pilula,
+.text {
+    margin-left: -18px;
+}
+
+.pilula p {
+    background-color: #142850;
+    width: 65px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: 18px;
+    padding: 0;
+}
+
+.category p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+
+}
+
+
+.card {
+    background-color: white;
+    width: 418px;
+    height: 295px;
+
+}
+
+.card-1 img {
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+
+.card-1 {
+    display: flex;
+    margin-top: 46px;
+}
+
+.card h2,
+p {
+    margin-top: 24px;
+    margin-left: 23px;
+}
+
+
+
+.title-card,
+h3 {
+    height: 60px;
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.title-card h4 {
+    height: 34px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A8CC;
+    ;
+}
+
+h1 {
+    font-size: 44px;
+    margin-bottom: 40px;
+    margin-top: 228px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+#btn-download {
+    background-color: #FF6464;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 208px;
+    height: 47px;
+    border: none;
+    margin-bottom: 71px;
+
+}
+
+#blog {
+    background-color: #EDF7FA;
+    height: 396px;
+
+}
+
+footer div,
+.copywrite {
+    display: flex;
+    justify-content: center;
+    margin-top: 134px;
+}
+
+footer div svg {
+
+    margin-left: 35px;
+
+    height: 182px;
+
+}
+
+.copywrite {
+    margin-top: -80px;
+}
